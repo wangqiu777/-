@@ -1,0 +1,61 @@
+ /* Top-增改样式 */
+ *{padding: 0;margin: 0;}
+ .top-li{
+   margin: 20px 10px;
+   color: rgb(67,67,67);
+ }
+ .top-li:hover,.top-li:target{
+   background: rgb(248, 126, 44);
+   border-radius: 8px;
+   border: 0;
+ }
+ .top-a{
+   color: rgb(67,67,67);
+   font-size: 18px;
+ }
+ .top-a.top-li{
+   margin: 0;
+   color:#000;
+}
+#cp{
+  position: absolute;
+  width: 110px;
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 100%;
+  }
+   #cp{
+    left:22%;
+  }
+ 
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 100%;
+  }
+  #cp{
+    left:22%;
+  }
+ 
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 100%;
+  }
+  #cp{
+    left:23%;
+  }
+ 
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 100%;
+  }
+  #cp{
+    left:19%;
+  }
+}
