@@ -60,4 +60,45 @@
   .bottom-two{
     background-color:#000; 
   }
+  .bottom-two-w,.bottom-three-w,.botton-four{
+    width: 65%;
+    margin: 0 auto;
+  }
+  .bottom-two-black{
+    text-align: center;
+  }
+  .bottom-two-img{
+    width: 30px;
+  }
+  .bottom-two-span{
+    font-size: 16px;
+    box-sizing: border-box;
+    color: rgb(161, 161, 161)
+  }
+  .breadcrumb{
+    background-color: #fff;
+  }
+  .bottom-three{
+    background-color: #fff;
+  }
+  .breadcrumb-item + .breadcrumb-item::before{
+    content: "|";
+  }
+  .bottom-three-a{
+    font-size: 12px;
+    color: #5e5e5e;
+    cursor: pointer;
+    text-decoration: none;
+    pointer-events: all;
+  }
+  .bottom-three-a:hover,.bottom-three-a:target{
+    text-decoration: none;
+    color: #5e5e5e;
+    
+  }
+  .botton-four p{
+    text-align: center;
+    color: #5e5e5e;
+    font-size: 12px;
+  }
   
