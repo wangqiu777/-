@@ -1,0 +1,109 @@
+.container{
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 576px) {
+  .container {
+  max-width: 100%;
+  }
+  }
+  
+  @media (min-width: 768px) {
+  .container {
+  max-width: 100%;
+  }
+  }
+  
+  @media (min-width: 992px) {
+  .container {
+  max-width: 100%;
+  }
+  }
+  
+  @media (min-width: 1200px) {
+  .container {
+  max-width: 100%;
+  }
+}
+.dn-tbody-w{
+  width: 60%;
+  margin: 0 auto;
+}
+.dn-tbody-w-span{
+  text-indent: 0.01px;
+  letter-spacing: 0px;
+  font-size: 14px;
+  color: rgb(121, 121, 121);
+  font-family: 微软雅黑;
+  box-sizing: border-box;
+  line-height: 28px;
+}
+.dn-tbody-bottom-p1{
+  font-size: 32px;
+  text-indent: 0.01px;
+  box-sizing: border-box;
+  font-weight: 700;
+  color: rgb(255, 110, 22);
+  background-color: rgba(0, 0, 0, 0);
+  text-align: center;
+}
+.dn-tbody-bottom-p2{
+  font-size: 22px;
+  text-indent: 0.01px;
+  box-sizing: border-box;
+  font-family: Helvetica;
+  color: rgb(255, 110, 22);
+  letter-spacing: 1px;
+  background-color: rgba(0, 0, 0, 0);
+  text-align: center;
+}
+.dn-tbody-bottom-p3{
+  font-size: 14px;
+  text-indent: 0.01px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0);
+  text-align: center;
+}
+.dn-tbody-bottom-last{
+  background-color:rgb(255, 110, 22);
+  border: 0px solid rgb(229, 240, 241);
+  border-radius: 0px;
+  box-shadow: none;
+  height: 400px;
+}
+.dn-tbody-bottom-last-img{
+  display: block;
+  margin: 30px auto;
+}
+.dn-tbody-bottom-last-p-bg1{
+  background-image: url("../../img/次页面/1133706083843584354.png");
+  width: 50%;
+  height: 100%;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+.dn-tbody-bottom-last-p-bg2{
+  background-image: url("../../img/次页面/1133706083906876984.png");
+  width: 50%;
+  height: 100%;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+.dn-tbody-bottom-last-p-bg3{
+  background-image: url("../../img/次页面/1133706083906876984.png");
+  width: 50%;
+  height: 100%;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+.dn-tbody-bottom-last-p-bg4{
+  background-image: url("../../img/次页面/1133706083898488376.png");
+  width: 50%;
+  height: 100%;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+.dn-tbody-bottom-last-p{
+
+}
+
