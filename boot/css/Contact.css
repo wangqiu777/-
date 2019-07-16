@@ -1,0 +1,122 @@
+.container{
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 576px) {
+  .container {
+  max-width: 100%;
+  }
+  }
+  
+  @media (min-width: 768px) {
+  .container {
+  max-width: 100%;
+  }
+  }
+  
+  @media (min-width: 992px) {
+  .container {
+  max-width: 100%;
+  }
+  }
+  
+  @media (min-width: 1200px) {
+  .container {
+  max-width: 100%;
+  }
+  }
+  .contact-tbody-w{
+    width: 50%;
+    margin: 0 auto;
+  }
+  .contact-tbody-p1{
+    font-size: 32px;
+    text-indent: 0.01px;
+    box-sizing: border-box;
+    font-weight: 700;
+    color: rgb(255, 110, 22);
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+  }
+  .contact-tbody-p2{
+    font-size: 22px;
+    color: rgb(255, 110, 22);
+    font-weight: 600;
+    text-align: center;
+  }
+  .contact-tbody-p3{
+    font-size: 14px;
+    text-indent: 0.01px;
+    box-sizing: border-box;
+    color: rgb(121, 121, 121);
+    font-family: 微软雅黑;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    margin-top:35px; 
+  }
+  .contact-tbody-img{
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius:50%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 80px;
+    margin-bottom:20px; 
+  }
+  .contact-tbody-last-p{
+    color: rgb(121, 121, 121);
+    font-family: 微软雅黑;
+    text-indent: 0px;
+    text-align: center;
+    font-size: 12px;
+    overflow-wrap: break-word;
+    margin-bottom:5px ;
+    
+  }
+  .contact-tbody-contact{
+    text-align: center
+  }
+  .contact-tbody-input{
+    width: 50%;
+    font-size: 14px; 
+    border-width: 1px; 
+    font-family: 黑体;
+    color: rgb(107, 107, 107); 
+    height: 40px; 
+    border-radius: 6px; 
+    background-color: rgba(255, 255, 255, 0.3);
+    border-color: rgb(255, 110, 22);
+    margin-bottom: 10px;
+    outline: none;
+    padding-left: 10px;
+    border-style: solid;
+  }
+  .contact-tbody-textarea{
+    width: 50%;
+    height: 120px; 
+    border-width: 1px; 
+    font-size: 14px;  
+    font-family: 黑体;  
+    color: rgb(107, 107, 107); 
+    border-radius: 6px; 
+    background-color: rgba(255, 255, 255, 0.3); 
+    border-color: rgb(255, 110, 22);
+    outline: none;
+    padding-left: 10px;
+  }
+  .contact-tbody-button{
+    width: 50%;
+    border-style: solid;
+    border-width: 0px;
+    border-color: rgb(255, 110, 22);
+    font-size: 14px;
+    font-family: 黑体;
+    color: rgb(255, 255, 255);
+    height: 40px;
+    line-height: 40px;
+    border-radius: 6px;
+    background-color: rgb(255, 110, 22);
+    cursor: pointer;
+  }
+  
