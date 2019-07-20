@@ -1,49 +1,63 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=`, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <!-- 引入4个文件，必须注意导入顺序 -->
 
-  <link rel="stylesheet" href="boot/css/bootstrap.css">
-  <link rel="stylesheet" href="boot/css/header.css">
-  <script src="boot/js/jquery.min.js"></script>
-  <script src="boot/js/popper.min.js"></script>
-  <script src="boot/js/bootstrap.min.js"></script>
-  
-</head>
-<body>
-  <div class="container">
-    <!-- Top-导航栏 -->
-    <div class="w-75 mx-auto">
-        <ul class="nav ">
-          <li class="nav-item top-li">
-            <a href="#" class="nav-link btn top-a active">首页</a>
-          </li>
-          <li class="nav-item top-li">
-            <a href="#" class=" nav-link btn top-a" data-toggle="collapse" data-target="#cp">产品系列</a>
-          </li>
-          <li class="nav-item top-li">
-            <a href="#" class="nav-link btn top-a">软装设计</a>
-          </li>
-          <li class="nav-item top-li">
-            <a href="#" class="nav-link btn top-a">新闻资讯</a>
-          </li>
-          <li class="nav-item top-li">
-            <a href="#" class="nav-link btn top-a">联系我们</a>
-          </li>
-        </ul>
-        <div class="collapse" id="cp" >
-          <div>
-            <a href="#" class="btn top-a top-li">窗帘地毯</a>
-          </div>
-          <div>
-            <a href="#" class="btn top-a top-li">配件</a>
-          </div>
-        </div>
+  <header id="header" class="container ">
+    <div class="w-75 mx-auto row">
+      <div class="col-lg-7 col-sm-12">
+        <ul class="nav top-ul">
+            <li class="nav-item top-li">
+              <a href="#" class="nav-link btn top-a active">首页</a>
+            </li>
+            <li class="nav-item top-li dropdown">
+              <a href="javascript:;" class=" nav-link btn top-a dropdown-toggle" data-toggle="dropdown">产品系列</a>
+              <ul class="dropdown-menu">
+                <li class="nav-item top-li mt-0">
+                  <a href="javascript:;" class="nav-link btn top-a">窗帘地毯</a>
+                </li>
+                <li class="nav-item top-li my-0">
+                  <a href="javascript:;" class="nav-link btn top-a">配件</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item top-li">
+              <a href="javascript:;" class="nav-link btn top-a">软装设计</a>
+            </li>
+            <li class="nav-item top-li">
+              <a href="javascript:;" class="nav-link btn top-a">新闻资讯</a>
+            </li>
+            <li class="nav-item top-li">
+              <a href="javascript:;" class="nav-link btn top-a">联系我们</a>
+            </li>
+       </ul>
+       <div>
+          <ul class="breadcrumb">
+            <li class="breadcrumb-item">
+              <a href="javascript:;" title="用户登录">登录</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="javascript:;" title="新用户注册">注册</a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="javascript:;">
+                <img src="img/小图标/购物车.png" alt="" title="我的购物车">
+              </a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="javascript:;">
+                <img src="img/小图标/个人中心.png" alt="" title="个人中心">
+              </a>
+            </li>
+            <li class="breadcrumb-item">
+              <a href="javascript:;">
+                <img src="img/小图标/收藏.png" alt="" title="我的收藏">
+              </a>
+            </li>
+          </ul>
+      </div>
     </div>
+      <div class="col-lg-5 col-sm-12">
+        <div class="">
+        <img src="img/1563591910hw1335.png" alt=""  class="top-img">
+        </div>
+        
+      </div>
   </div>
-</body>
-</html>
+  </header>
